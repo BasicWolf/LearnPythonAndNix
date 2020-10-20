@@ -49,7 +49,7 @@ How would we test it?
 
 .. code-block:: python
 
-   # grep.py
+   # example/grep.py
    def grep(line, pattern):
        return pattern in line
 
