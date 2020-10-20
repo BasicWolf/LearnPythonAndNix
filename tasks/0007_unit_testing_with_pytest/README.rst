@@ -66,19 +66,18 @@ How would we test it?
 
 Now we run `pytest` and get the following results:
 
-.. code-block::
+.. code-block:: none
 
+   $ pytest example
 
-$ pytest example
+   ====================== test session starts ======================
+   platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+   rootdir: /home/zaur/projects/learnpython/tasks/0007_unit_testing_with_pytest
+   collected 2 items
 
-====================== test session starts ======================
-platform linux -- Python 3.8.5, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
-rootdir: /home/zaur/projects/learnpython/tasks/0007_unit_testing_with_pytest
-collected 2 items
+   example/test_grep.py ..                                  [100%]
 
-example/test_grep.py ..                                  [100%]
-
-====================== 2 passed in 0.01s ======================
+   ====================== 2 passed in 0.01s ======================
 
 
 Please note, that the example above doesn't show the flow of TDD.
