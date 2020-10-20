@@ -95,3 +95,16 @@ programming skills to the next level.
 
 Let's take the `grep` task #2 as a starting point. The goal
 is to do it again the TDD way.
+
+Create virtual environment and install `pytest` package.
+
+The `src` directory has all necessary files to start with :)
+Try running
+
+.. code-block:: python
+
+   $ pytest src/
+
+Pytest will search for tests in `src/` directory and run all the tests.
+
+Don't hesitate to ask questions if anything is unclear!
