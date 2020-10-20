@@ -53,8 +53,7 @@ How would we test it?
    def grep(line, pattern):
        return pattern in line
 
-
-.. code_block:: python
+   # ---------------------------------------- #
 
    # example/test_grep.py
    def test_line_contains_pattern():
