@@ -66,7 +66,7 @@ How would we test it?
 
 Now we run `pytest` and get the following results:
 
-.. code-block:: none
+.. code-block::
 
 
 $ pytest example
